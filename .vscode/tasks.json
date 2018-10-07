@@ -1,0 +1,71 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Set Params",
+			"type": "shell",
+			"isBackground": false,
+			"group": "none",
+			"command": ".vscode/set-params.sh",
+			"options": {
+				"env": {
+					"MSYSTEM": "MINGW64",
+					"CHERE_INVOKING": "1",
+					"PACKAGE": "notify",
+					"CSRCDIR": "src",
+					"FILE": "${fileBasenameNoExtension}"
+				},
+				"cwd": "${workspaceFolder}",
+				"windows": {
+					"shell": {
+						"executable": "C:/msys64/usr/bin/bash.exe",
+						"args": [
+							"-c"
+						]
+					}
+				}
+			},
+			"presentation": {
+				"echo": false,
+				"reveal": "never",
+				"focus": false,
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Build Win32x64",
+			"type": "shell",
+			"windows": {
+				"command": "${workspaceFolder}/.vscode/build.bat",
+				"args": [
+					"x64"
+				],
+				"options": {
+					"cwd": "${workspaceFolder}",
+					"env": {
+						"LIB": "C:/Program Files/Python36/libs"
+					},
+					"shell": {
+						"executable": "cmd.exe",
+						"args": [
+							"/c"
+						]
+					}
+				}
+			},
+			"dependsOn": [
+				"Set Params"
+			],
+			"isBackground": false,
+			"group": "build",
+			"presentation": {
+				"echo": false,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared"
+			},
+			"problemMatcher": "$msCompile"
+		}
+	]
+}

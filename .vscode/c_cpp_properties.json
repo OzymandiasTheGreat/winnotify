@@ -1,0 +1,65 @@
+{
+	"configurations": [
+		{
+			"name": "Win32x64",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"C:/Program Files/Python36/include"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
+			],
+			"compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64/cl.exe",
+			"cStandard": "c11",
+			"intelliSenseMode": "msvc-x64"
+		},
+		{
+			"name": "Win32x86",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"C:/Program Files (x86)/Python36-32/include"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
+			],
+			"compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x86/cl.exe",
+			"cStandard": "c11",
+			"intelliSenseMode": "msvc-x64"
+		},
+		{
+			"name": "MinGW64",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"C:/msys64/mingw64/include/python3.6m"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
+			],
+			"compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+			"cStandard": "c11",
+			"intelliSenseMode": "clang-x64"
+		},
+		{
+			"name": "MinGW32",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"C:/msys64/mingw32/include/python3.6m"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
+			],
+			"compilerPath": "C:/msys64/mingw32/bin/gcc.exe",
+			"cStandard": "c11",
+			"intelliSenseMode": "clang-x64"
+		}
+	],
+	"version": 4
+}

@@ -1,0 +1,3 @@
+PACKAGE=notify
+CSRCDIR=src
+FILE=_notify

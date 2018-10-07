@@ -1,0 +1,21 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Python/C Launch (Win32x64)",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "C:/Program Files/Python36/python.exe",
+			"args": [
+				"test.py"
+			],
+			"cwd": "${workspaceFolder}",
+			"stopAtEntry": true,
+			"environment": [],
+			"externalConsole": false,
+			"preLaunchTask": "Build Win32x64",
+			"symbolSearchPath": "C:/Program Files/Python36;${workspaceFolder}"
+		}
+	],
+	"compounds": []
+}
