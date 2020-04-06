@@ -1,6 +1,12 @@
 winnotify
 ==========
 
+-------------------
+
+If you find this software useful, [consider becoming a patron](https://www.patreon.com/ozymandias)
+
+-------------------
+
 This package provides a Python extension module written in C to show native
 Windows notifications.
 Notifications appear as toasts on Windows 10 and as balloons on earlier
