@@ -3,7 +3,7 @@ winnotify
 
 -------------------
 
-If you find this software useful, [consider becoming a patron](https://www.patreon.com/ozymandias)
+If you find this software useful, `consider becoming a patron <https://www.patreon.com/ozymandias>`_
 
 -------------------
 
