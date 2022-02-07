@@ -1,11 +1,17 @@
 winnotify
 ==========
 
--------------------
+ARCHIVED
+---------
 
-If you find this software useful, `consider becoming a patron <https://www.patreon.com/ozymandias>`_
+This library uses ancient Windows API's ans is currently partially broken (refer `#2`_).
+I no longer have any Windows boxes or the time and interest in updating this library.
+Therefore I'm archiving it. There's little point in forking it, for it'd be better
+to completely rewrite it using modern API's.
 
--------------------
+.. _#2: https://github.com/OzymandiasTheGreat/winnotify/issues/2
+
+--------------------------------------------------------------------------
 
 This package provides a Python extension module written in C to show native
 Windows notifications.
